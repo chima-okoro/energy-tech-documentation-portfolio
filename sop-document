@@ -1,0 +1,303 @@
+# Standard Operating Procedure (SOP)
+## Technical Issue Escalation & Bug Reporting
+
+**Document ID:** SOP-ENG-004  
+**Version:** 1.0  
+**Effective Date:** March 2026  
+**Department:** Engineering / Support / DevOps / QA  
+**Owner:** Engineering Operations
+
+---
+
+# 1. Purpose
+
+This SOP defines the standard process for **reporting, validating, and escalating technical issues or software bugs**.
+
+The goal is to:
+
+- Ensure issues are **reported consistently**
+- Reduce **duplicate bug reports**
+- Speed up **resolution time**
+- Maintain **clear communication across teams**
+
+---
+
+# 2. Scope
+
+This procedure applies to all teams responsible for **software operations and maintenance**, including:
+
+- Customer Support
+- Quality Assurance (QA)
+- Engineering
+- DevOps
+
+The SOP covers:
+
+- Software bugs
+- System outages
+- API failures
+- Performance degradation
+- Infrastructure issues
+
+---
+
+# 3. Roles & Responsibilities
+
+| Role | Responsibility |
+|-----|-----|
+| **Customer Support** | Identify and report user-facing issues |
+| **QA Team** | Reproduce and validate bugs |
+| **Engineering Team** | Investigate and fix confirmed bugs |
+| **DevOps Team** | Resolve infrastructure or deployment issues |
+| **Engineering Manager** | Approve escalations and allocate resources |
+
+---
+
+# 4. Required Tools or Access
+
+Personnel performing this procedure must have access to:
+
+- **Issue Tracking System** (Jira / Linear / GitHub Issues)
+- **Communication Platform** (Slack / Microsoft Teams)
+- **Monitoring Tools** (Datadog / New Relic / Grafana)
+- **Application Logs**
+- **Deployment Dashboard**
+
+Optional tools:
+
+- Screen recording software
+- Screenshot tools
+
+---
+
+# 5. Procedure Steps
+
+## Stage 1 — Issue Identification
+
+**Responsible:** Customer Support / QA
+
+### Steps
+
+1. Detect a potential issue through:
+   - Customer report
+   - Monitoring alert
+   - Internal testing
+2. Collect initial information:
+   - Error message
+   - Screenshot or screen recording
+   - Time of occurrence
+   - Affected feature
+3. Confirm whether the issue is **reproducible**.
+
+### Expected Outcome
+
+A **clear issue description with supporting evidence**.
+
+### Common Failure Points
+
+- Missing screenshots
+- Incomplete error information
+- Vague issue descriptions
+
+---
+
+# Stage 2 — Issue Documentation
+
+**Responsible:** Support or QA
+
+### Steps
+
+1. Log into the **Issue Tracking System**.
+2. Create a **new bug report**.
+3. Include the following fields:
+
+- Issue title
+- Description
+- Steps to reproduce
+- Expected result
+- Actual result
+- Severity level
+- Environment (production/staging)
+- Browser or device information
+
+4. Attach supporting files:
+   - Logs
+   - Screenshots
+   - Error responses
+
+### Example Bug Title
+
+Payment API returns HTTP 500 during checkout
+
+
+### Expected Outcome
+
+A **complete and structured bug report** is created.
+
+### Common Failure Points
+
+- Missing reproduction steps
+- No environment information
+- Incorrect severity classification
+
+---
+
+# Stage 3 — Bug Verification
+
+**Responsible:** QA Team
+
+### Steps
+
+1. Review the bug report for completeness.
+2. Attempt to reproduce the issue.
+3. Test across different environments:
+   - Production
+   - Staging
+4. Confirm whether the issue is:
+   - Valid bug
+   - Configuration issue
+   - User error
+5. Update the ticket status.
+
+Possible statuses:
+
+- **Confirmed Bug**
+- **Needs More Information**
+- **Not Reproducible**
+
+### Expected Outcome
+
+The issue is **verified and categorized correctly**.
+
+### Common Failure Points
+
+- Testing only one environment
+- Skipping log analysis
+- Closing issues prematurely
+
+---
+
+# Stage 4 — Engineering Investigation
+
+**Responsible:** Engineering Team
+
+### Steps
+
+1. Review the issue ticket.
+2. Analyze system logs and stack traces.
+3. Identify the root cause.
+4. Assign the issue to the responsible developer.
+5. Implement a fix or workaround.
+
+### Expected Outcome
+
+A **root cause is identified and a fix is implemented**.
+
+### Common Failure Points
+
+- Lack of log access
+- Misinterpreting error messages
+- Overlooking related services
+
+---
+
+# Stage 5 — Deployment & Verification
+
+**Responsible:** DevOps / QA
+
+### Steps
+
+1. Deploy the fix to the **staging environment**.
+2. Perform regression testing.
+3. Verify the bug no longer occurs.
+4. Deploy the fix to **production**.
+5. Monitor system behavior for stability.
+
+### Expected Outcome
+
+The issue is **resolved without introducing new defects**.
+
+### Common Failure Points
+
+- Skipping regression testing
+- Incomplete deployment checks
+- Lack of monitoring after deployment
+
+---
+
+# 6. Validation Checklist
+
+Before closing the issue, confirm the following:
+
+- [ ] Issue is fully documented  
+- [ ] Bug successfully reproduced  
+- [ ] Root cause identified  
+- [ ] Fix implemented  
+- [ ] QA testing completed  
+- [ ] Fix deployed to production  
+- [ ] Monitoring confirms system stability
+
+---
+
+# 7. Risk & Escalation Path
+
+Certain issues require **immediate escalation**.
+
+## Critical Escalation Conditions
+
+Escalate immediately if:
+
+- Production system is down
+- Security vulnerability detected
+- Payment processing failure
+- Data loss risk
+
+---
+
+## Escalation Levels
+
+| Severity | Escalation Contact |
+|------|------|
+| Low | QA Lead |
+| Medium | Engineering Manager |
+| High | Head of Engineering |
+| Critical | CTO / Incident Response Team |
+
+---
+
+## Escalation Process
+
+1. Tag the issue as **Critical** in the tracking system.
+2. Notify the team via **Slack #incident channel**.
+3. Contact the **Engineering Manager directly**.
+4. Initiate the **incident response protocol**.
+
+### Expected Outcome
+
+Critical issues receive **immediate attention and rapid resolution**.
+
+---
+
+# 8. Common Failure Points
+
+Typical problems in bug reporting include:
+
+- Duplicate issue tickets
+- Incorrect severity levels
+- Missing reproduction steps
+- Lack of communication between teams
+- Delayed escalation of critical issues
+
+Following this SOP minimizes these risks.
+
+---
+
+# 9. Version History
+
+| Version | Date | Author | Changes |
+|------|------|------|------|
+| 1.0 | March 2026 | Documentation Team | Initial release |
+
+---
+
+**End of Document**
