@@ -1,0 +1,472 @@
+# SafeTrip User Manual (MVP Edition)
+
+**Version:** 1.1  
+
+---
+
+# 1. Introduction
+
+## What SafeTrip Does
+
+SafeTrip is a **mobile safety app for travellers**.  
+It helps users quickly contact trusted people during emergencies.
+
+The app allows you to:
+
+- Send **emergency alerts**
+- Share your **location**
+- Notify contacts that you **arrived safely**
+- Find **nearby help services**
+
+SafeTrip focuses on **fast and simple safety tools**.
+
+---
+
+## Who SafeTrip Is For
+
+SafeTrip is designed for:
+
+- Travelers
+- Small business owners
+- Field workers
+- Delivery teams
+- Anyone who wants extra safety while moving
+
+The app works best for people who need **quick emergency communication**.
+
+---
+
+## Key Benefits
+
+SafeTrip helps users:
+
+- Send **instant SOS alerts**
+- Share **location during emergencies**
+- Notify contacts when they arrive safely
+- Find **nearby police stations or hospitals**
+- Stay protected even with **temporary internet loss**
+
+---
+
+# 2. System Requirements
+
+## Mobile App (Android)
+
+SafeTrip is available for **Android devices only** in this MVP version.
+
+Requirements:
+
+- **Android Version:** 7.0 or higher
+- **Storage:** At least 50 MB free space
+- **Internet:** Required for setup and some features
+- **SMS Permission:** Required for SOS alerts
+
+The app is **not available in the Google Play Store**.
+
+Users install the app using a **direct download (APK)**.
+
+---
+
+## Web Landing Page
+
+The SafeTrip website provides:
+
+- Product information
+- App download button
+- Support resources
+
+Supported browsers:
+
+- Chrome
+- Firefox
+- Microsoft Edge
+
+---
+
+# 3. Getting Started
+
+## Install SafeTrip
+
+Follow these steps to install the app.
+
+1. Open your browser.
+2. Visit **www.safetrip.com**.
+3. Tap the **Download** button.
+4. Download the SafeTrip **APK file**.
+5. Allow **Install from Unknown Sources** if prompted.
+6. Open the downloaded file.
+7. Tap **Install**.
+8. Launch the SafeTrip app.
+
+---
+
+## Create an Account
+
+1. Open SafeTrip.
+2. Tap **Sign Up**.
+3. Enter your:
+   - Full name  
+   - Email address  
+   - Password
+4. Tap **Create Account**.
+5. Check your email inbox.
+6. Click the **verification link**.
+
+Your account is now active.
+
+---
+
+## First Login
+
+1. Open the SafeTrip app.
+2. Enter your **email address**.
+3. Enter your **password**.
+4. Tap **Login**.
+
+---
+
+## Dashboard Overview
+
+After login, the **Home Screen** appears.
+
+The dashboard shows the main actions:
+
+- **SOS Button**
+- **Check-In**
+- **Nearby Help**
+
+The interface is simple for **fast emergency access**.
+
+---
+
+# 4. Core Features
+
+## 4.1 One-Tap SOS Alert
+
+### What It Does
+
+The SOS feature sends an **emergency alert** to your trusted contacts.
+
+The message includes:
+
+- Your name
+- Your location coordinates
+- A Google Maps link
+
+### When to Use It
+
+Use SOS when you:
+
+- Feel unsafe
+- Need urgent assistance
+- Want contacts to know your location
+
+---
+
+### How to Send an SOS Alert
+
+1. Open SafeTrip.
+2. Go to the **Home Screen**.
+3. Tap the **SOS button**.
+
+The app immediately sends an emergency message.
+
+---
+
+### Offline Behavior
+
+If there is **no internet connection**:
+
+- The message is **stored on your device**.
+- SafeTrip sends it **once the network returns**.
+
+---
+
+### Tips
+
+- Add emergency contacts before using SOS.
+- Keep **location permissions enabled**.
+
+---
+
+## 4.2 Emergency Contact Setup
+
+### What It Does
+
+Emergency contacts receive:
+
+- SOS alerts
+- Check-In messages
+
+Contacts **do not need the SafeTrip app**.
+
+Messages are delivered using **SMS**.
+
+---
+
+### How to Add Emergency Contacts
+
+1. Open the app.
+2. Tap **Settings**.
+3. Select **Emergency Contacts**.
+4. Tap **Add Contact**.
+5. Enter:
+   - Contact name
+   - Phone number
+6. Tap **Save**.
+
+---
+
+### Tips
+
+- Add **at least two trusted contacts**.
+- Keep contact numbers updated.
+
+---
+
+## 4.3 Check-In Feature
+
+### What It Does
+
+Check-In sends an **“I’m Safe” message**.
+
+The message confirms that you **arrived safely**.
+
+---
+
+### When to Use It
+
+Use Check-In when you:
+
+- Arrive at a destination
+- Finish a trip
+- Want to reassure family or coworkers
+
+---
+
+### How to Send a Check-In
+
+1. Open SafeTrip.
+2. Tap **Check-In** on the Home Screen.
+3. Confirm the action.
+
+Your contacts receive a message with:
+
+- Time
+- Location
+
+---
+
+## 4.4 Nearby Help Finder
+
+### What It Does
+
+Nearby Help shows important places close to you.
+
+Examples:
+
+- Police stations
+- Hospitals
+- Fuel stations
+
+---
+
+### How to Use Nearby Help
+
+1. Open SafeTrip.
+2. Tap **Nearby Help**.
+3. Allow **location access** if prompted.
+4. View the list of nearby places.
+5. Tap a location.
+
+The app opens **Google Maps for navigation**.
+
+---
+
+### Tips
+
+- Use Nearby Help when traveling in unfamiliar areas.
+
+---
+
+## 4.5 Incident Timeline (Personal Logbook)
+
+### What It Does
+
+SafeTrip records safety events automatically.
+
+The log includes:
+
+- SOS alerts
+- Check-In messages
+- Date and time
+- Location
+
+---
+
+### How to View Your Timeline
+
+1. Open SafeTrip.
+2. Navigate to **Timeline**.
+3. Review past safety events.
+
+This history helps with **personal records or reports**.
+
+---
+
+# 5. Settings & Customization
+
+Users can adjust key settings.
+
+Available options include:
+
+- Managing **Emergency Contacts**
+- Updating **account information**
+- Reviewing **message history**
+
+To access settings:
+
+1. Open the app.
+2. Tap **Settings**.
+
+---
+
+# 6. Security & Data Privacy
+
+SafeTrip is designed to protect user data.
+
+Key security features include:
+
+- **Email verification** during account creation
+- **Encrypted data transmission**
+- **User-controlled contact sharing**
+
+Your location is shared **only with approved contacts**.
+
+---
+
+### Safety Recommendations
+
+- Never share your password.
+- Keep emergency contacts updated.
+- Enable **location permissions** for accurate alerts.
+
+---
+
+# 7. Frequently Asked Questions (FAQs)
+
+### Is SafeTrip a ride-hailing app?
+
+No. SafeTrip does **not book rides or connect drivers**.
+
+---
+
+### Do emergency contacts need the app?
+
+No. Contacts receive **SMS alerts**.
+
+---
+
+### Does SafeTrip track trips continuously?
+
+No. The MVP version **does not provide live tracking**.
+
+---
+
+### Is the app available in the Play Store?
+
+No. The MVP version is available via **direct download only**.
+
+---
+
+# 8. Troubleshooting
+
+### Email Verification Not Received
+
+Possible solutions:
+
+- Check your **spam folder**
+- Request a **new verification email**
+
+---
+
+### SOS Message Not Sending
+
+Check the following:
+
+- SMS permission is enabled
+- Location permission is enabled
+- Network connectivity is available
+
+---
+
+### App Installation Failed
+
+Try the following:
+
+- Allow **installation from unknown sources**
+- Ensure **50 MB free storage**
+
+---
+
+### Nearby Help Not Loading
+
+Possible causes:
+
+- Location permission disabled
+- No internet connection
+
+Enable location and try again.
+
+---
+
+# 9. Support Contact Information
+
+If you need help, contact the SafeTrip support team.
+
+**Email:** support@safetrip.com  
+**Support Page:** www.safetrip.com/support  
+**Website:** www.safetrip.com
+
+Support is available for:
+
+- Installation help
+- Account issues
+- Technical problems
+- Feature questions
+
+---
+
+# Product Limitations (MVP)
+
+Important notes about this version.
+
+SafeTrip:
+
+- Is **not a ride-hailing service**
+- Does **not verify drivers or vehicles**
+- Does **not provide live trip tracking**
+- Is **available only through direct download**
+
+These limitations apply to the **MVP release**.
+
+---
+
+# Future Enhancements
+
+Future versions may include:
+
+- USSD emergency triggering
+- Optional live trip tracking
+- Integration with emergency agencies
+- In-app messaging with contacts
+- Cloud backup for safety logs
+
+---
+
+# Document Information
+
+**Document:** SafeTrip User Manual (MVP Edition)  
+**Version:** 1.1  
+**Last Updated:** November 2025  
+© 2025 SafeTrip Technologies
