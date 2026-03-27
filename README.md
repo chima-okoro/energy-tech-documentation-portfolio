@@ -46,7 +46,7 @@ Designed for consistency, clarity, and ease of execution.
 Comprehensive user manual covering product features, usage, and troubleshooting.  
 Organized for quick reference and user accessibility.  
 
-👉 [View Project](./user-manual.md)
+👉 [View Project](./user-manual) 
 
 ---
 
