@@ -22,7 +22,7 @@ I help teams translate complex technical concepts into simple, actionable conten
 Structured API documentation covering authentication, endpoints, request/response formats, and error handling.  
 Designed for developers to integrate quickly and efficiently.  
 
-👉 [View Project](./api-documentation.md)
+👉 [View Project](./api-documentation) 
 
 ---
 
