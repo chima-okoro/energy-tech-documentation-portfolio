@@ -67,7 +67,7 @@ Practical introduction to essential Linux commands for beginners, with examples 
 ### 7. Python Automation Guide
 Step-by-step tutorial on automating repetitive tasks using Python, including file handling and scripting examples.  
 
-👉 [View Project](./python-automation.md)
+👉 [View Project](./python-automation) 
 
 ---
 
