@@ -53,7 +53,7 @@ Organized for quick reference and user accessibility.
 ### 5. Excel Data Analysis Guide
 Beginner-friendly guide on using Microsoft Excel for data analysis, including formulas, charts, and PivotTables.  
 
-👉 [View Project](./excel-data-analysis.md)
+👉 [View Project](./excel-data-analysis) 
 
 ---
 
