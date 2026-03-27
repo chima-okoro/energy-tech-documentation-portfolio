@@ -38,7 +38,7 @@ Focused on reducing onboarding friction and improving adoption.
 Standard Operating Procedure (SOP) document outlining clear workflows and processes.  
 Designed for consistency, clarity, and ease of execution.  
 
-👉 [View Project](./sop-documentation.md)
+👉 [View Project](./sop-document) 
 
 ---
 
