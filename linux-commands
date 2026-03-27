@@ -1,0 +1,68 @@
+# 5 Linux Commands Every Beginner Should Know
+
+## Introduction
+Linux is widely used in servers, development, and cloud environments. Learning basic commands is essential for navigating and managing systems efficiently.
+
+This guide introduces five essential Linux commands every beginner should know.
+
+---
+
+## 1. `ls` – List Files and Directories
+
+Displays files in the current directory.
+
+```bash
+ls
+
+### Options:
+ls -l   # detailed list
+ls -a   # show hidden files
+
+---
+
+## 2. `cd`– Change Directory
+
+Navigate between directories.
+
+cd /home/user
+cd ..
+cd ~
+
+---
+
+## 3. `pwd` – Print Working Directory
+
+Shows your current location.
+pwd
+
+---
+## 4. `cp` – Copy Files
+Copy files or directories.
+
+cp file.txt backup.txt
+cp -r folder1 folder2
+
+---
+
+## 5. `rm` – Remove Files
+
+Delete files or directories.
+rm file.txt
+rm -r folder
+
+⚠️ Be careful—deleted files cannot be recovered easily.
+
+---
+### Bonus Tips
+Use `man` to get help:
+
+man ls
+
+Use Tab for auto-completion
+
+---
+## Conclusion
+
+These five commands form the foundation of Linux usage. Mastering them will help you navigate systems and perform basic operations efficiently.
+
+Practice regularly to build confidence.
